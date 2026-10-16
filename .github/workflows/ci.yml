@@ -124,7 +124,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t homemade-kitchen:${{ github.sha }} .
+          docker build -t real-estate-company:${{ github.sha }} -f ./frontend/Dockerfile ./frontend
 
 
   # -----------------------------------------
