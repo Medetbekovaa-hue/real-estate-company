@@ -1,0 +1,6 @@
+projectKey=real-estate-company
+serverUrl=http://3.129.64.230:9000
+serverVersion=26.9.0.129388
+dashboardUrl=http://3.129.64.230:9000/dashboard?id=real-estate-company
+ceTaskId=a22d6663-4722-43ce-b4b8-06f1947e1ea6
+ceTaskUrl=http://3.129.64.230:9000/api/ce/task?id=a22d6663-4722-43ce-b4b8-06f1947e1ea6
