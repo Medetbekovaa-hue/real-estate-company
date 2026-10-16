@@ -161,7 +161,7 @@ jobs:
           ECR_REPOSITORY: real-estate-company
           IMAGE_TAG: ${{ github.sha }}
         run: |
-          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG app/.
+          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG backend/.
 
           docker tag \
             $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG \
