@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: real-estate-company-frontend:latest
+          image: 355103369722.dkr.ecr.us-east-2.amazonaws.com/real-estate-company-frontend
           ports:
             - containerPort: 80
           readinessProbe:
